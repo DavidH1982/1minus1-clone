@@ -1,38 +1,645 @@
-.App {
-  text-align: center;
+.col1 {width: 8.33%;}
+.col2 {width: 16.66%;}
+.col3 {width: 25%;}
+.col4 {width: 33.33%;}
+.col5 {width: 41.66%;}
+.col6 {width: 50%;}
+.col7 {width: 58.33%;}
+.col8 {width: 66.66%;}
+.col9 {width: 75%;}
+.col10 {width: 83.33%;}
+.col11 {width: 91.66%;}
+.col12 {width: 100%;}
+
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: url(./Fonts/FontsFree-Net-Gilroy3.ttf) format('truetype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  overflow-x: hidden;
+  font-family: 'Gilroy-Regular', Helvetica, Arial, sans-serif;
+  font-weight: 400; 
 }
+.jumboContainer {
+  background-color: #272426;
+  background-image: url(./Images/1minus1_jumbo_dancer_Moment.jpg);
+  background-position: 29vh -1.8vw;
+  background-size: 72%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.jumboText {
+  box-sizing: border-box;
+  height: 100%;
+  padding-top: 15%;
+  color: white;
+  position: relative;
+  float: left;
+  font-size: 14.5vh;
+  font-weight: 100;
+  padding-left: 13.5%;
+  line-height: 17vh;
+}
+.jumboText p {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 10px;
+}
+.sponsors {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  padding-top: 120px;
+  background-color: #F9F9F9;
+  list-style: none;
+}
+.sponsorsLogo {
+  box-sizing: border-box;
+  width: 19%;
+  height: 22%;
+  list-style: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  opacity: 0;
+}
+.xboxLogo {background-image: url(./Images/xboxstudios.png);
+        animation: fadeIn 1s forwards;}
+.vrLogo {background-image: url(./Images/vrlogo.webp);
+        animation: fadeIn 1s forwards;
+        animation-delay: 0.2s;}
+.turn10Logo {background-image: url(./Images/turn10logo_1.png); background-size: 35%;
+        animation: fadeIn 1s forwards;
+        animation-delay: 0.4s;}
+.fastTravelLogo {background-image: url(./Images/fasttravellogo.png); background-size: 75%;
+        animation: fadeIn 1s forwards;
+        animation-delay: 0.6s;}
+.thatGameLogo {background-image: url(./Images/thatgamelogo.png); background-size: 75%;
+        animation: fadeIn 1s forwards;
+        animation-delay: 0.8s;}
+.playgroundLogo {background-image: url(./Images/playgroundlogo.png); background-size: 75%;
+        animation: fadeIn 1s forwards;
+        animation-delay: 1s;}
+.ballisticLogo {background-image: url(./Images/ballisticlogo.png);
+          animation: fadeIn 1s forwards;
+          animation-delay: 1.2s;}
+.studioTypesLogo {background-image: url(./Images/studiotypeslogo.png); background-size: 75%;
+          animation: fadeIn 1s forwards;
+          animation-delay: 1.4s;}
+.airshipLogo {background-image: url(./Images/airshiplogo.png); background-size: 75%;
+          animation: fadeIn 1s forwards;
+          animation-delay: 1.6s;}
+.lightspeedLogo {background-image: url(./Images/lightspeedlogo.png); background-size: 40%;
+          animation: fadeIn 1s forwards;
+          animation-delay: 1.8s;}
+.kochLogo {background-image: url(./Images/kochlogo.png); background-size: 75%;
+          animation: fadeIn 1s forwards;
+          animation-delay: 2s;}
+.tezotopiaLogo {background-image: url(./Images/tezotopialogo.png); background-size: 50%;
+          animation: fadeIn 1s forwards;
+          animation-delay: 2.2s;}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    list-style: none;
+  }
+  100% {
+    opacity: 0.7;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.fadeOut {
+  animation: fadeout 1s forwards;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    list-style: none;
+  }
+}
+.blankLogo {
+  width: 12%;
+}
+.whatWeDoPage {
+  box-sizing: border-box;
+  padding: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.wwdDiv {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100%;
+  color: #4A4A4A;
+  position: relative;
+  top: -70px;
+}
+.wwdHeading {
+  line-height: 80px;
+  font-size: 20px;
+}
+.wwdDesc {
+  line-height: 80px;
+  font-size: 70px;
+  font-weight: 100;
+}
+.breakdownHeadings {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+}
+.wwdBreakdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.websitesBreakdown,
+.designsBreakdown,
+.graphicsBreakdown,
+.marketingBreakdown {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 23%;
+  padding-top: 75px;
+}
+.websitesBreakdown li,
+.designsBreakdown li,
+.graphicsBreakdown li,
+.marketingBreakdown li{
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+} 
+.websitesBreakdown li:first-of-type,
+.designsBreakdown li:first-of-type,
+.graphicsBreakdown li:first-of-type,
+.marketingBreakdown li:first-of-type {
+  line-height: 60px;
+  font-size: 30px;
+  border-bottom: 1px solid #EAEAEA;
+}
+.websitesBreakdown li:nth-of-type(2),
+.designsBreakdown li:nth-of-type(2),
+.graphicsBreakdown li:nth-of-type(2),
+.marketingBreakdown li:nth-of-type(2) {
+  padding-top: 40px;
+}
+
+.resultsDiv {
+  background-color: #212121;
+  color: white;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  transform: translateX(-2000px);
+}
+.resultsDivAnimation {
+  animation: sideSlideIn 2s ease-in-out forwards;
+  animation-iteration-count: 1;
+}
+@keyframes sideSlideIn {
+  0% {
+    transform: translateX(-2000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+/* .resultsDivAnimationReverse {
+  animation: sideSlideIn 2s ease-in-out forwards;
+}
+@keyframes sideSlideIn {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-2000px);
+  }
+} */
+.resultsText {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.resultsTextLeftTop {
+  line-height: 100px;
+  font-size: 110px;
+  font-weight: 100;
+  padding-bottom: 50px;
+}
+.resultsTextLeftMiddle {
+  line-height: 35px;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+.resultsTextLeftBottom a:active, 
+.resultsTextLeftBottom a:link, 
+.resultsTextLeftBottom a:hover, 
+.resultsTextLeftBottom a:visited {
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+}
+.resultsTextRight {
+  display: flex;
+  flex-direction: column;
+  justify-content:  flex-end;
+  text-align: right;
+  position: relative;
+  top: 150px;
+  padding-right: 20px;
+}
+.resultsTextRightTop {
+  font-size: 230px;
+  font-weight: 600;
+}
+.resultsTextRightBottom {
+  font-size: 20px;
+  font-weight: 500; 
+}
+
+.specialistPage {
+  background-color: #f6f6f6;
+}
+.controllerBG {
+  height: 65%;
+  width: 82%; 
+  background-color: #DDDDDD;
+  position: relative;
+  top: 17%;
+  left: 9.5%;
+  z-index: 0;
+  padding: 0 auto;
+  align-self: center;
+}
+.controllerBGHidden {
+  animation: controllerBGHide 1s ease-in-out forwards;
+  animation-delay: 1.5s;
+}
+@keyframes controllerBGHide {
+  0% {
+    width: 83.33%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+.controllerImageHidden {
+  animation: controllerImageHide .5s forwards;
+}
+@keyframes controllerImageHide {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.controllerImage {
+  background-image: url(./Images/handsController.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 92%;
+  z-index: 10;
+  position: relative;
+  top: -61%;
+  left: -2.25%;
+  opacity: 0;
+}
+.controllerBGAnimation {
+  animation: inFromLeft 1.5s ease-in-out forwards;
+}
+@keyframes inFromLeft {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 83.33%;
+  }
+}
+.controllerImageAnimation {
+  animation: controllerFadeIn 1s forwards;
+  animation-delay: 2.5s; 
+}
+@keyframes controllerFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.featuredProjectDiv {
+  height: 77.3%;
+  width: 88%;
+  background-color: #282524;
+  margin-top: 6.4%;
+  margin-left: 6.3%;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.featuredProjectVideoDiv {
+  width: 75%;
+  height: 83%;
+  margin-left: 13%; 
+  background-image: url(./Images/featuredprojectvideo_Moment.jpg);
+  z-index: 0;
+  position: relative;
+  top: 2%;
+}
+.featuredProjectText {
+  padding-left: 7.2%;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -85%;
+}
+.featuredProjectTextTop {
+  font-size: 22px;
+  line-height: 50px;
+  padding-top: 8.5%;
+  font-weight: 800;
+}
+.featuredProjectTextMiddle {
+  font-size: 80px;
+  font-weight: lighter;
+  line-height: 100px;
+  padding: 0;
+}
+.featuredProjectTextBottom {
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 80px;
+  padding: 0;
+}
+.featuredProjectTextBottom a:link,
+.featuredProjectTextBottom a:visited,
+.featuredProjectTextBottom a:active,
+.featuredProjectTextBottom a:hover {
+  color: white;
+}
+.sideBar {
+  width: 15%;
+  height: 100%;
+  background-color: #F9F9F9;
+  position: relative;
+  left: 0;
+  top: -60px;
+}
+.caseStudyPage {
+  color: #4A4A4A;
+}
+.caseStudyText {
+  height: 21%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 12%;
+  position: relative;
+  top: -98%;
+}
+.caseStudyTextTop {
+  line-height: 50px;
+  font-size: 18px;
+}
+.caseStudyTextBottom {
+  font-size: 62px;
+  font-weight: lighter;
+  line-height: 90px; 
+}
+.turn10CaseDiv {
+  height: 42%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 6.3%;
+  overflow-x: visible;
+  position: relative;
+  top: -106%;
+}
+.turn10BG {
+  background-color: #F4F4F4;
+  height: 40%;
+  width: 100%;
+}
+.turn10CaseImage {
+  height: 110%;
+  width: 110%;
+  background-image: url(./Images/turn10carimage.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  position: relative;
+  left: -10%;
+}
+.turn10CaseTextTop,
+.ballisticCaseTextTop,
+.fastTravelCaseTextTop,
+.studiotypesCaseTextTop {
+  line-height: 50px;
+}
+.turn10CaseTextBottom,
+.ballisticCaseTextBottom,
+.fastTravelCaseTextBottom,
+.studiotypesCaseTextBottom {
+  font-size: 42px;
+  line-height: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ballisticCaseDiv {
+  height: 62%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: visible;
+  position: relative;
+  top: -144%;
+  left: 51%;
+}
+.ballisticBG {
+  background-color: #F4F4F4;
+  height: 48%;
+  width: 100%;
+}
+.ballisticCaseImage {
+  height: 130%;
+  width: 130%;
+  background-image: url(./Images/ballisticastronautimage.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  position: relative;
+  left: -10%;
+  top: -20%;
+}
+
+.fastTravelCaseDiv {
+  height: 52%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: visible;
+  position: relative;
+  top: -173%;
+  left: 12%;
+}
+.fastTravelBG {
+  background-color: #F4F4F4;
+  height: 48%;
+  width: 100%;
+}
+.fastTravelCaseImage {
+  height: 150%;
+  width: 150%;
+  background-image: url(./Images/fasttravelzombieimage.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+  position: relative;
+  top: -30%;
+  left: -13%;
+}
+
+.studiotypesCaseDiv {
+  height: 42%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: visible;
+  position: relative;
+  top: -212%;
+  left: 60%;
+}
+.studiotypesBG {
+  background-color: #F4F4F4;
+  height: 38%;
+  width: 100%;
+}
+.studiotypesCaseImage {
+  height: 110%;
+  width: 110%;
+  background-image: url(./Images/studiotypeswireframeimage.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  position: relative;
+  top: -17%;
+  left: -10%;
+}
+
+.playgroundBannerPage {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  box-sizing: border-box;
+  padding-top: 4%;
+}
+.playgroundBG {
+  height: 84%;
+  width: 87%;
+  background-color: #282524;
+}
+.playgroundBGImage {
+  height: 100%;
+  width: 100%;
+  background-image: url(./Images/playground_games_phone_Moment.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.playgroundText {
+  position: relative;
+  top: -48%;
+  box-sizing: border-box;
+  padding-left: 7%;
+}
+.playgroundTextTop {
+  color: white;
+  font-size: 40px;
+  line-height: 30px;
+}
+.playgroundTextBottom {
+  padding-top: 30px;
+  color: #636262;
+  line-height: 30px;
+  font-size: 20px;
+}
+.playgroundTextBottom a:hover,
+.playgroundTextBottom a:link,
+.playgroundTextBottom a:active,
+.playgroundTextBottom a:visited {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #212121;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-left: 13%;
+}
+.footerTopText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80%;
+}
+.footerTopTextTop {
+  height: 30%;
+  line-height: 120px;
+  font-size: 95px;
+}
+.footerBottomText {
+  display: flex;
+  flex-direction: row;
+}
+.addressLeft,
+.addressRight,
+.copyright {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.addressLeftName,
+.addressRightName {
+  line-height: 40px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.addressLeftPhone,
+.addressLeftEmail,
+.addressRightPhone,
+.addressRightEmail {
+  color: #e0e0e0;
+  line-height: 35px;
+  font-size: 22px;
+}
+.addressLeftAddressTop,
+.addressLeftAddressBottom,
+.addressRightAddressTop,
+.addressRightAddressBottom,
+.copyright {
+  color: #7F7F7F;
+  line-height: 30px;
+  font-size: 20px;
+}
+.copyright {
+  align-self: flex-end;
 }
