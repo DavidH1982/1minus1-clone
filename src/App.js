@@ -104,7 +104,7 @@ const App = () => {
             <div className='wwdHeading'>
               <strong>WHAT WE DO</strong>
             </div>
-            <div className='wwdDesc col9'>
+            <div className='wwdDesc col10'>
               1minus1 is an award-winning <strong>creative <br/>marketing agency</strong> dedicated to the <br/>games industry.
             </div>
             <div className='wwdBreakdown'>
@@ -262,7 +262,7 @@ const App = () => {
                 </div>
                 <div className='playgroundTextBottom'>
                   Scalable content managed<br/>
-                  website for the Microsoft games different<br/>
+                  website for the Microsoft games<br/>
                   studio. <a href='#'>View projects</a>
                 </div>
               </div>
