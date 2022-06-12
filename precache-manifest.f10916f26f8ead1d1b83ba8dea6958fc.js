@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "aaa7c56dea9d7328e588",
-    "url": "/1minus1-clone/static/css/main.60007810.chunk.css"
+    "revision": "e68f45f78d826ccd6f46",
+    "url": "/1minus1-clone/static/css/main.a10d3142.chunk.css"
   },
   {
-    "revision": "aaa7c56dea9d7328e588",
-    "url": "/1minus1-clone/static/js/main.aaa7c56d.chunk.js"
+    "revision": "e68f45f78d826ccd6f46",
+    "url": "/1minus1-clone/static/js/main.e68f45f7.chunk.js"
   },
   {
     "revision": "03ae7ea834bbe7645a20",
@@ -20,6 +20,14 @@ self.__precacheManifest = [
     "url": "/1minus1-clone/static/js/runtime~main.80053067.js"
   },
   {
+    "revision": "42ab5127190890f58ef89f9b5cad5844",
+    "url": "/1minus1-clone/static/media/FontsFree-Net-Gilroy3.42ab5127.ttf"
+  },
+  {
+    "revision": "fb2bd48650a5accbdbd0476573ad81a9",
+    "url": "/1minus1-clone/static/media/vrlogo.fb2bd486.webp"
+  },
+  {
     "revision": "21844da48daf03b99934164fa3cacc5a",
     "url": "/1minus1-clone/static/media/1minus1_jumbo_dancer_Moment.21844da4.jpg"
   },
@@ -30,6 +38,10 @@ self.__precacheManifest = [
   {
     "revision": "2435453ea760f60f68a111d1b16b7309",
     "url": "/1minus1-clone/static/media/turn10logo_1.2435453e.png"
+  },
+  {
+    "revision": "8d38c83c02fa48f57107fdd6fa84ae20",
+    "url": "/1minus1-clone/static/media/fasttravellogo.8d38c83c.png"
   },
   {
     "revision": "3891b23f957fca8b6ade2ce34d169d8c",
@@ -64,18 +76,6 @@ self.__precacheManifest = [
     "url": "/1minus1-clone/static/media/playground_games_phone_Moment.a14aa6d4.jpg"
   },
   {
-    "revision": "42ab5127190890f58ef89f9b5cad5844",
-    "url": "/1minus1-clone/static/media/FontsFree-Net-Gilroy3.42ab5127.ttf"
-  },
-  {
-    "revision": "fb2bd48650a5accbdbd0476573ad81a9",
-    "url": "/1minus1-clone/static/media/vrlogo.fb2bd486.webp"
-  },
-  {
-    "revision": "8d38c83c02fa48f57107fdd6fa84ae20",
-    "url": "/1minus1-clone/static/media/fasttravellogo.8d38c83c.png"
-  },
-  {
     "revision": "40c0c2fb0bdec71cf21706a366142406",
     "url": "/1minus1-clone/static/media/handsController.40c0c2fb.png"
   },
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/1minus1-clone/static/media/studiotypeswireframeimage.7a76a65e.png"
   },
   {
-    "revision": "040673a92f47d38f7909b727bb57e3d6",
+    "revision": "38475f33a23156e95c7b466ea0ec6015",
     "url": "/1minus1-clone/index.html"
   }
 ];
