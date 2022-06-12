@@ -63,7 +63,7 @@ const App = () => {
   const whatWeDoHeight = height -45;
   const resultsHeight = height +200;
   const featuredHeight = height - 100;
-  const caseStudyHeight = height*3.8;
+  const caseStudyHeight = height*3;
   const footerHeight = height*1.6;
 
 
