@@ -105,7 +105,7 @@ const App = () => {
               <strong>WHAT WE DO</strong>
             </div>
             <div className='wwdDesc col9'>
-              1minus1 is an award-winning <strong>creative marketing agency</strong> dedicated to the games industry.
+              1minus1 is an award-winning <strong>creative <br/>marketing agency</strong> dedicated to the <br/>games industry.
             </div>
             <div className='wwdBreakdown'>
               <div className='websitesBreakdown'>
@@ -121,7 +121,7 @@ const App = () => {
                 <li>Campaign design</li>
               </div>
               <div className='graphicsBreakdown'>
-                <li>Motion Graphics</li>
+                <li>Motion graphics</li>
                 <li>Video</li>
                 <li>3D</li>
                 <li>Animation</li>
@@ -262,7 +262,7 @@ const App = () => {
                 </div>
                 <div className='playgroundTextBottom'>
                   Scalable content managed<br/>
-                  website for the Microsoft games<br/>
+                  website for the Microsoft games different<br/>
                   studio. <a href='#'>View projects</a>
                 </div>
               </div>
@@ -271,9 +271,9 @@ const App = () => {
         <div className='footer' style={{height:`${footerHeight}`+'px'}}>
           <div className='footerTopText'>
             <div className='footerTopTextTop'>
-              <p>Different where it<br/>
-              matters. Fanatical<br/>
-              where it counts.</p>
+              <li>Di&#102;&#102;erent where it</li>
+              <li>matters. Fanatical</li>
+              <li>where it counts.</li>
             </div>
             <div className='footerTopTextBottom'>
               <a href='#'>CONTACT US</a>

@@ -19,7 +19,7 @@
 body {
   overflow-x: hidden;
   font-family: 'Gilroy-Regular', Helvetica, Arial, sans-serif;
-  font-weight: 400; 
+  /* font-weight: 400;  */
 }
 .jumboContainer {
   background-color: #272426;
@@ -149,7 +149,7 @@ body {
 }
 .wwdDesc {
   line-height: 80px;
-  font-size: 70px;
+  font-size: 62px;
   font-weight: 100;
 }
 .breakdownHeadings {
@@ -198,8 +198,18 @@ body {
 .graphicsBreakdown li:nth-of-type(2),
 .marketingBreakdown li:nth-of-type(2) {
   padding-top: 40px;
+  color: #787878;
 }
-
+.websitesBreakdown li:nth-last-of-type(3),
+.designsBreakdown li:nth-of-type(3),
+.graphicsBreakdown li:nth-of-type(3),
+.marketingBreakdown li:nth-of-type(3),
+.websitesBreakdown li:nth-of-type(4),
+.designsBreakdown li:nth-of-type(4),
+.graphicsBreakdown li:nth-of-type(4),
+.marketingBreakdown li:nth-of-type(4) {
+  color:#787878;
+}
 .resultsDiv {
   background-color: #212121;
   color: white;
@@ -605,6 +615,23 @@ body {
   height: 30%;
   line-height: 120px;
   font-size: 95px;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footerTopTextBottom {
+  box-sizing: border-box;
+  padding-top: 5%;
+}
+.footerTopTextBottom a:link,
+.footerTopTextBottom a:active,
+.footerTopTextBottom a:visited,
+.footerTopTextBottom a:hover {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
 }
 .footerBottomText {
   display: flex;
