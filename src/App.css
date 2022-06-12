@@ -405,18 +405,20 @@ body {
   background-color: #F9F9F9;
   position: relative;
   left: 0;
-  top: -6vh;
+  top: -50vh;
 }
 .caseStudyPage {
+  box-sizing: border-box;
+  margin-top: 40vh;
   color: #4A4A4A;
 }
 .caseStudyText {
-  height: 21%;
+  height: 21vh;
   display: flex;
   flex-direction: column;
-  padding-left: 12%;
+  padding-left: 12vw;
   position: relative;
-  top: -98%;
+  top: -320vh;
 }
 .caseStudyTextTop {
   line-height: 5vh;
@@ -428,13 +430,13 @@ body {
   line-height: 9vh; 
 }
 .turn10CaseDiv {
-  height: 42%;
+  height: 130vh;
   display: flex;
   flex-direction: column;
-  padding-left: 6.3%;
+  padding-left: 6.3vw;
   overflow-x: visible;
   position: relative;
-  top: -106%;
+  top: -295vh;
 }
 .turn10BG {
   background-color: #F4F4F4;
@@ -462,73 +464,74 @@ body {
 .fastTravelCaseTextBottom,
 .studiotypesCaseTextBottom {
   font-size: 4.2vh;
-  line-height: 5vh;
+  line-height: 6vh;
 }
 
 .ballisticCaseDiv {
-  height: 62%;
+  height: 170vh;
   display: flex;
   flex-direction: column;
   overflow-y: visible;
   position: relative;
-  top: -144%;
-  left: 51%;
+  top: -415vh;
+  left: 50vw;
 }
 .ballisticBG {
   background-color: #F4F4F4;
-  height: 48%;
+  height: 42%;
   width: 100%;
 }
 .ballisticCaseImage {
-  height: 130%;
+  height: 125%;
   width: 130%;
   background-image: url(./Images/ballisticastronautimage.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: center;
+  background-position-y: 7vh;
   position: relative;
-  left: -10%;
-  top: -20%;
+  left: -15%;
+  top: -25%;
 }
 
 .fastTravelCaseDiv {
-  height: 52%;
+  height: 165vh;
   display: flex;
   flex-direction: column;
   overflow-y: visible;
   position: relative;
-  top: -173%;
-  left: 12%;
+  top: -500vh;
+  left: 12vw;
 }
 .fastTravelBG {
   background-color: #F4F4F4;
-  height: 48%;
+  height: 42%;
   width: 100%;
 }
 .fastTravelCaseImage {
-  height: 150%;
+  height: 130%;
   width: 150%;
   background-image: url(./Images/fasttravelzombieimage.png);
   background-repeat: no-repeat;
   background-size: 50%;
-  background-position: center;
+  background-position-y: 12vh;
+  background-position-x: 25vh;
   position: relative;
   top: -30%;
   left: -13%;
 }
 
 .studiotypesCaseDiv {
-  height: 42%;
+  height: 150vh;
   display: flex;
   flex-direction: column;
   overflow-y: visible;
   position: relative;
-  top: -212%;
-  left: 60%;
+  top: -630vh;
+  left: 60vw;
 }
 .studiotypesBG {
   background-color: #F4F4F4;
-  height: 38%;
+  height: 35%;
   width: 100%;
 }
 .studiotypesCaseImage {
@@ -536,8 +539,9 @@ body {
   width: 110%;
   background-image: url(./Images/studiotypeswireframeimage.png);
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
+  background-size: 105%;
+  background-position-y: -8vh;
+  background-position-x: center;
   position: relative;
   top: -17%;
   left: -10%;
